@@ -44,11 +44,11 @@ class Homepage extends React.Component {
         });
         } else {
             this.setState({
-            city : undefined,
-            country : undefined,
-            temperature : undefined,
-            humidity : undefined,
-            description : undefined,
+            city : null,
+            country : null,
+            temperature : null,
+            humidity : null,
+            description : null,
             errorMessage : "Please enter City and Country to know your weather report"
         });
     }
