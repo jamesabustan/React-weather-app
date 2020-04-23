@@ -1,9 +1,7 @@
 import React from 'react';
 import { render } from '@testing-library/react';
 import App from './App';
+import WeatherTitle from '../src/components/header';
+import Form from '../src/components/form';
+import Weather from '../src/components/weather';
 
-test('renders learn react link', () => {
-  const { getByText } = render(<App />);
-  const linkElement = getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
-});

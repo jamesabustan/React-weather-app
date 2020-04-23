@@ -1,10 +1,11 @@
 
 h3 {
     font-size: 20px;
+    padding-bottom: 10px;
 }
 
-p {
-    font-size: 16px;
+span {
+    font-size: 14px;
     padding-bottom: 40px;
 }
 
@@ -24,6 +25,7 @@ span {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100%;
 }
 
 @keyframes fill {

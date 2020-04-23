@@ -57,18 +57,19 @@ class Homepage extends React.Component {
 
     render() {
         return (
-            <div className={styles.HomePage}>
-                <WeatherTitle />
-                <Form getWeather={this.getWeather}/>
-                <Weather 
-                    city = {this.state.city}
-                    country = {this.state.country}
-                    temperature = {this.state.temperature}
-                    humidity = {this.state.humidity}
-                    description = {this.state.description}
-                    errorMessage = {this.state.errorMessage}
-                />
-            </div>
+                <div className={styles.HomePage}>
+                    <WeatherTitle />
+                    {/* pass the function to the form component */}
+                    <Form getWeather={this.getWeather}/>
+                    <Weather 
+                        city = {this.state.city}
+                        country = {this.state.country}
+                        temperature = {this.state.temperature}
+                        humidity = {this.state.humidity}
+                        description = {this.state.description}
+                        errorMessage = {this.state.errorMessage}
+                    />
+                </div>
         );
     }
 }
