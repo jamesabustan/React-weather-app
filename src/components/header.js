@@ -5,9 +5,12 @@ function WeatherTitle() {
   return (
     <div className={styles.WeatherHeader}>
       <header>
-          <h1>Ark</h1>
+          <div className={styles.animateText}>
+            ArK
+          </div>
           <h3>Weather App</h3>
-          <p>Inspired from the "Noah's ArK". This app provide's you accurate weather reports.</p>
+          <p>Inspired from "Noah's Ark". <br />
+          This app provide's you accurate weather reports.</p>
       </header>
     </div>
   );

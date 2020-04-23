@@ -1,9 +1,6 @@
-h1 {
-    font-size: 160px;
-}
 
 h3 {
-    font-size: 30px;
+    font-size: 20px;
     padding: 10px;
 }
 
@@ -20,6 +17,8 @@ p {
     letter-spacing: 2px;
     display: flex;
     justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .WeatherHeader {
@@ -27,3 +26,26 @@ p {
     justify-content: center;
     align-items: center;
 }
+
+@keyframes fill {
+    from{
+      background-position: center 25%;
+    }
+    to {
+      background-position: center 50%;
+    }
+  }
+  
+  .animateText{
+    background-image: url("https://source.unsplash.com/random");
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    color:  #FFFFFF;
+    padding-top: 20px;
+    font-size: 200px;
+    animation: fill ease 4s 1 alternate-reverse;
+    animation-iteration-count: infinite;
+    display: flex;
+    justify-content: center;
+    font-weight: 800;
+  }

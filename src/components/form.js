@@ -8,7 +8,7 @@ class Form extends React.Component {
             <form onSubmit={this.props.getWeather} className={styles.formComponent}>
                 <input type="text" name="city" placeholder="Insert City"/>
                 <input type="text" name="country" placeholder="Insert Country"/>
-                <button className={styles.button}>Weather me UP</button>
+                <button className={styles.button}>Submit</button>
             </form>
         );
     }
