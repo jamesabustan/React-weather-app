@@ -1,0 +1,29 @@
+h1 {
+    font-size: 160px;
+}
+
+h3 {
+    font-size: 30px;
+    padding: 10px;
+}
+
+p {
+    font-size: 16px;
+    padding: 4px;
+}
+
+h1, 
+h3,
+p {
+    color: #50518d;
+    font-weight: 400;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+}
+
+.WeatherHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

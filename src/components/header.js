@@ -1,8 +1,9 @@
 import React from 'react';
+import styles from './header.module.css';
 
 function WeatherTitle() {
   return (
-    <div className="WeatherHeader">
+    <div className={styles.WeatherHeader}>
       <header>
           <h1>Ark</h1>
           <h3>Weather App</h3>
