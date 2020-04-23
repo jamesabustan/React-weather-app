@@ -9,8 +9,8 @@ function WeatherTitle() {
             ArK
           </div>
           <h3>Weather App</h3>
-          <p>Inspired from "Noah's Ark". <br />
-          This app provide's you accurate weather reports.</p>
+          <span>Inspired from "Noah's Ark". <br />
+          This app provide's you accurate weather reports.</span>
       </header>
     </div>
   );
