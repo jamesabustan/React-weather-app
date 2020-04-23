@@ -23,7 +23,7 @@ class Homepage extends React.Component {
     }
 
     // fetch weather API
-    getWeather = async (e) => {
+    getWeatherAPI = async (e) => {
         e.preventDefault();
 
         const city = e.target.elements.city.value;
@@ -60,7 +60,7 @@ class Homepage extends React.Component {
                 <div className={styles.HomePage}>
                     <WeatherTitle />
                     {/* pass the function to the form component */}
-                    <Form getWeather={this.getWeather}/>
+                    <Form getWeather={this.getWeatherAPI}/>
                     <Weather 
                         city = {this.state.city}
                         country = {this.state.country}

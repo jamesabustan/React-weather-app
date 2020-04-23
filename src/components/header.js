@@ -8,8 +8,8 @@ function WeatherTitle() {
           <div className={styles.animateText}>
             ArK
           </div>
-          <h3>Weather App</h3>
-          <span>Inspired from "Noah's Ark". <br />
+          <h3>ArK Weather App</h3>
+          <span>Inspired by "Noah's Ark". <br />
           This app provide's you accurate weather reports.</span>
       </header>
     </div>

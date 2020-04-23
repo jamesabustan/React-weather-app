@@ -24,13 +24,9 @@ test('Does form component load', () => {
     expect(wrapper.find(".formComponent").length).toEqual(1);
   });
   
-  test('Does header component load', () => {
-      const wrapper = mount(<WeatherTitle />)
-      expect(wrapper.find(".WeatherHeader").length).toEqual(1);
-      expect(wrapper.find(".animateText").length).toEqual(1);
-    });
+
   
-  test('Does weather results load', () => {
+test('Does weather results load', () => {
       const wrapper = mount(<Weather />)
       expect(wrapper.find(".weatherComponent").length).toEqual(1);
   });
